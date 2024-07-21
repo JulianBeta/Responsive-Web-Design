@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1 id="title">Title</h1>
+    <p id="description">Description</p>
+    <form action="" id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Name<input required type="text" id="name" name="name" placeholder="Please enter your name"></label>
+            <label for="email" id="email-label">Email<input required type="email" id="email" name="email" placeholder="Please enter your email"></label>
+            <label for="age" id="number-label">Age<input type="number" name="age" id="number" min="15" max="100" placeholder="Please enter your age"></label>
+        </fieldset>
+        <fieldset>
+            <select name="" id="dropdown">
+                <option value="select" >Select an option</option>
+                <option value="1" >Option 1</option>
+                <option value="2" >Option 2</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <input type="checkbox" name="checkbox" id="1" value="1">
+            <input type="checkbox" name="checkbox" id="2" value="2">
+        </fieldset>
+        <fieldset>
+            <label for="1"><input type="radio" value="1" id="1" name="options">1</label>
+            <label for="2"><input type="radio" value="2" id="2" name="options">2</label>
+            <label for="3"><input type="radio" value="3" id="3" name="options">3</label>
+            <label for="4"><input type="radio" value="4" id="4" name="options">4</label>
+        </fieldset>
+        <fieldset>
+            <label for="comments">Please add comments
+                <textarea name="comments" id="comments"></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+</html>
